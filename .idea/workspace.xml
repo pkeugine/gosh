@@ -16,7 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="initial shell">
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="include exit command">
       <change beforePath="$PROJECT_DIR$/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/gosh.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601479281444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="include exit command">
+      <created>1601479557381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601479557381</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial shell" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial shell" />
+    <MESSAGE value="include exit command" />
+    <option name="LAST_COMMIT_MESSAGE" value="include exit command" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
