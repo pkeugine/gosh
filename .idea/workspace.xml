@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="initial shell">
+      <change beforePath="$PROJECT_DIR$/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/gosh.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +33,11 @@
   </component>
   <component name="GOROOT" path="$USER_HOME$/sdk/go1.15.2" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="pkeugine" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iEeUJ246ovyHjrNyxuVS903pfS" />
@@ -43,16 +63,64 @@
       <option name="presentableId" value="Default" />
       <updated>1601477193420</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial shell">
+      <created>1601479281444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601479281444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial shell" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial shell" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation/0.23.2560.1417@0.23.2560.1417" timestamp="1601477286420" />
+    <state x="217" y="307" key="CommitChangelistDialog2" timestamp="1601479191770">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="217" y="307" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1601479191770" />
+    <state x="513" y="635" key="Github.ShareDialog" timestamp="1601479258727">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="513" y="635" key="Github.ShareDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601479258727" />
     <state x="228" y="473" key="IDE.errors.dialog" timestamp="1601479077071">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -61,5 +129,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1419" y="328" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1601479117088" />
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1601479233430">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1601479233430" />
   </component>
 </project>

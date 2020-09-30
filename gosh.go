@@ -14,12 +14,14 @@ func main() {
 	fmt.Println("---------------------------------------------")
 	for {
 		fmt.Print(">>> ")
-		input, _ := reader.ReadString('\n')
-		input = strings.Replace(input, "\n", "", -1)
-		if strings.Compare("help", input) == 0 {
-			fmt.Println("Commands:\nhelp: Display available commands")
-		} else {
-			fmt.Println(input)
+		command, _ := reader.ReadString('\n')
+		command = strings.Replace(command, "\n", "", -1)
+		if strings.Compare("help", command) == 0 {
+			fmt.Println("Commands:\n" +
+				"help: Display available commands\n" +
+				"exit: Exit out of shell")
+		} else if strings.Compare("exit", command) == 0 {
+			break
 		}
 
 	}
