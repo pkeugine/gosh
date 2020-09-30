@@ -28,7 +28,7 @@ func main() {
 			//fmt.Println("Commands:\n" +
 			//	"   help: Display available commands\n" +
 			//	"   exit: Exit out of shell\n" +
-			//	"listall: List all files and directories including hidden ones")
+			//	"     ls: List all files and directories including hidden ones")
 		} else if strings.Compare("exit", command) == 0 {
 			break
 		} else if strings.Compare("ls", command) == 0 {
@@ -39,6 +39,5 @@ func main() {
 				log.Fatal(err)
 			}
 		}
-
 	}
 }

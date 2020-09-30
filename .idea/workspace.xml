@@ -16,9 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="create main.sh">
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="change route to help, &quot;listall&quot; to &quot;ls&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/bin/help" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/bin/help" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gosh.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601483178796</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change route to help, &quot;listall&quot; to &quot;ls&quot;">
+      <created>1601483316978</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601483316978</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +218,8 @@
     <MESSAGE value="add nim version of 'help'" />
     <MESSAGE value="updatet workspace.xml" />
     <MESSAGE value="create main.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="create main.sh" />
+    <MESSAGE value="change route to help, &quot;listall&quot; to &quot;ls&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="change route to help, &quot;listall&quot; to &quot;ls&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
@@ -243,22 +250,22 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="513" y="635" key="Github.ShareDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601479258727" />
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1601482635523">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1601483321485">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635523" />
-    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1601482635522">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321485" />
+    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1601483321485">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635522" />
-    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1601482635522">
+    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321485" />
+    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1601483321484">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635522" />
-    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1601482635522">
+    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321484" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1601483321485">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635522" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321485" />
     <state x="228" y="473" key="IDE.errors.dialog" timestamp="1601479077071">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
