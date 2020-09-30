@@ -16,12 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="change '&gt;&gt;&gt;' to 'gosh&gt;'">
-      <change afterPath="$PROJECT_DIR$/src/commands/src/help.nim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gosh.go" afterDir="false" />
-    </list>
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="add nim version of 'help'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,10 +50,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/src/commands" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin/src/commands" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/commands" />
       <recent name="$PROJECT_DIR$/src/commands/bin" />
@@ -131,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601480506917</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add nim version of 'help'">
+      <created>1601482669227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601482669227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +176,8 @@
     <MESSAGE value="include listall command" />
     <MESSAGE value="create src directory" />
     <MESSAGE value="change '&gt;&gt;&gt;' to 'gosh&gt;'" />
-    <option name="LAST_COMMIT_MESSAGE" value="change '&gt;&gt;&gt;' to 'gosh&gt;'" />
+    <MESSAGE value="add nim version of 'help'" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nim version of 'help'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
@@ -202,22 +208,22 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="513" y="635" key="Github.ShareDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601479258727" />
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1601482591732">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1601482635523">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
-    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1601482591732">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635523" />
+    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1601482635522">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
-    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1601482591732">
+    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635522" />
+    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1601482635522">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
-    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1601482591732">
+    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635522" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1601482635522">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1601482635522" />
     <state x="228" y="473" key="IDE.errors.dialog" timestamp="1601479077071">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
