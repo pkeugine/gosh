@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("by: pkeugine (Eugine Park)")
 	fmt.Println("---------------------------------------------")
 	for {
-		fmt.Print(">>> ")
+		fmt.Print("gosh> ")
 		command, _ := reader.ReadString('\n')
 		command = strings.Replace(command, "\n", "", -1)
 		if strings.Compare("help", command) == 0 {

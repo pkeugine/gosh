@@ -16,9 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="include exit command">
-      <change beforePath="$PROJECT_DIR$/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/gosh.go" afterDir="false" />
-    </list>
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="create src directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +52,11 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601479557381</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="include listall command">
+      <created>1601480101989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601480101989</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create src directory">
+      <created>1601480184118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601480184118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +131,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial shell" />
     <MESSAGE value="include exit command" />
-    <option name="LAST_COMMIT_MESSAGE" value="include exit command" />
+    <MESSAGE value="include listall command" />
+    <MESSAGE value="create src directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="create src directory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
