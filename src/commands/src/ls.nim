@@ -1,4 +1,6 @@
 import terminal
+import osproc
+
 setForeGroundColor(fgCyan)
-ls -la
+discard execCmdEx "ls -la"
 setForeGroundColor(fgDefault)

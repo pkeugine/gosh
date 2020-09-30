@@ -16,11 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="forgotten &quot;listall&quot; change, build tested">
-      <change afterPath="$PROJECT_DIR$/src/commands/src/ls.nim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.sh" beforeDir="false" afterPath="$PROJECT_DIR$/main.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gosh.go" afterDir="false" />
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="added ls.nim but not implemented">
+      <change beforePath="$PROJECT_DIR$/src/commands/src/ls.nim" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/src/ls.nim" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601483479062</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added ls.nim but not implemented">
+      <created>1601484643646</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601484643646</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +233,8 @@
     <MESSAGE value="create main.sh" />
     <MESSAGE value="change route to help, &quot;listall&quot; to &quot;ls&quot;" />
     <MESSAGE value="forgotten &quot;listall&quot; change, build tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgotten &quot;listall&quot; change, build tested" />
+    <MESSAGE value="added ls.nim but not implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ls.nim but not implemented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
@@ -260,22 +265,22 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="513" y="635" key="Github.ShareDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601479258727" />
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1601483321485">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1601484842113">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321485" />
-    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1601483321485">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1601484842113" />
+    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1601484842113">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321485" />
-    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1601483321484">
+    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1601484842113" />
+    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1601484842113">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321484" />
-    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1601483321485">
+    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1601484842113" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1601484842113">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1601483321485" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1601484842113" />
     <state x="228" y="473" key="IDE.errors.dialog" timestamp="1601479077071">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
