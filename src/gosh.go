@@ -19,10 +19,16 @@ func main() {
 		command, _ := reader.ReadString('\n')
 		command = strings.Replace(command, "\n", "", -1)
 		if strings.Compare("help", command) == 0 {
-			fmt.Println("Commands:\n" +
-				"   help: Display available commands\n" +
-				"   exit: Exit out of shell\n" +
-				"listall: List all files and directories including hidden ones")
+			cmd := exec.Command("./src/commands/help")
+			cmd.Stdout = os.Stdout
+			cmd.Stderr = os.Stderr
+			if err := cmd.Run(); err != nil {
+				log.Fatal(err)
+			}
+			//fmt.Println("Commands:\n" +
+			//	"   help: Display available commands\n" +
+			//	"   exit: Exit out of shell\n" +
+			//	"listall: List all files and directories including hidden ones")
 		} else if strings.Compare("exit", command) == 0 {
 			break
 		} else if strings.Compare("listall", command) == 0 {

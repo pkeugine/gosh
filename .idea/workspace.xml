@@ -16,7 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="create src directory" />
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="change '&gt;&gt;&gt;' to 'gosh&gt;'">
+      <change afterPath="$PROJECT_DIR$/src/commands/src/help.nim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gosh.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,8 +60,32 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/commands" />
+      <recent name="$PROJECT_DIR$/src/commands/bin" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gosh" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$/bin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gosh" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gosh" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/gosh.go" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$/bin/" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601480184118</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change '&gt;&gt;&gt;' to 'gosh&gt;'">
+      <created>1601480506917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601480506917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,29 +170,62 @@
     <MESSAGE value="include exit command" />
     <MESSAGE value="include listall command" />
     <MESSAGE value="create src directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="create src directory" />
+    <MESSAGE value="change '&gt;&gt;&gt;' to 'gosh&gt;'" />
+    <option name="LAST_COMMIT_MESSAGE" value="change '&gt;&gt;&gt;' to 'gosh&gt;'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation/0.23.2560.1417@0.23.2560.1417" timestamp="1601477286420" />
+    <state x="104" y="393" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601482231136">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="104" y="393" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601482231136" />
+    <state x="373" y="540" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601482255993">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="373" y="540" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1601482255993" />
+    <state x="427" y="455" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1601481878769">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="427" y="455" key="#com.intellij.ide.macro.MacrosDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601481878769" />
     <state x="217" y="307" key="CommitChangelistDialog2" timestamp="1601479191770">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="217" y="307" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1601479191770" />
+    <state x="494" y="475" key="EnvironmentVariablesDialog" timestamp="1601481857452">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="494" y="475" key="EnvironmentVariablesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601481857452" />
     <state x="513" y="635" key="Github.ShareDialog" timestamp="1601479258727">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="513" y="635" key="Github.ShareDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601479258727" />
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1601482591732">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
+    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1601482591732">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
+    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1601482591732">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1601482591732">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1601482591732" />
     <state x="228" y="473" key="IDE.errors.dialog" timestamp="1601479077071">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="228" y="473" key="IDE.errors.dialog/0.23.2560.1417@0.23.2560.1417" timestamp="1601479077071" />
-    <state x="1419" y="328" key="SettingsEditor" timestamp="1601479117088">
+    <state x="1419" y="328" key="SettingsEditor" timestamp="1601480812344">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1419" y="328" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1601479117088" />
+    <state x="1419" y="328" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1601480812344" />
     <state x="305" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1601479233430">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
