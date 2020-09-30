@@ -19,7 +19,7 @@ func main() {
 		command, _ := reader.ReadString('\n')
 		command = strings.Replace(command, "\n", "", -1)
 		if strings.Compare("help", command) == 0 {
-			cmd := exec.Command("./src/commands/help")
+			cmd := exec.Command("./src/commands/bin/help")
 			cmd.Stdout = os.Stdout
 			cmd.Stderr = os.Stderr
 			if err := cmd.Run(); err != nil {
@@ -31,7 +31,7 @@ func main() {
 			//	"listall: List all files and directories including hidden ones")
 		} else if strings.Compare("exit", command) == 0 {
 			break
-		} else if strings.Compare("listall", command) == 0 {
+		} else if strings.Compare("ls", command) == 0 {
 			cmd := exec.Command("ls", "-la")
 			cmd.Stdout = os.Stdout
 			cmd.Stderr = os.Stderr
