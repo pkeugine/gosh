@@ -40,8 +40,7 @@ func main() {
 				log.Fatal(err)
 			}
 		} else if strings.Compare("calc", command) == 0 {
-			//cmd := exec.Command("./src/commands/bin/calc")
-			cmd := exec.Command("./src/commands/pymath/app/a.out")
+			cmd := exec.Command("./src/commands/bin/calc")
 			cmd.Stdout = os.Stdout
 			cmd.Stderr = os.Stderr
 			if err := cmd.Run(); err != nil {
