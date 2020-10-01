@@ -17,11 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="try out ls, not implemented yet">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/pymath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/src/calc.nim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.sh" beforeDir="false" afterPath="$PROJECT_DIR$/main.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/bin/help" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/bin/help" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/src/help.nim" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/src/help.nim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gosh.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601485075104</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add calc command, fix ls">
+      <created>1601569407742</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601569407742</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +254,8 @@
     <MESSAGE value="forgotten &quot;listall&quot; change, build tested" />
     <MESSAGE value="added ls.nim but not implemented" />
     <MESSAGE value="try out ls, not implemented yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="try out ls, not implemented yet" />
+    <MESSAGE value="add calc command, fix ls" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calc command, fix ls" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
