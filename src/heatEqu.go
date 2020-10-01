@@ -50,7 +50,6 @@ func heatEqu() {
 		fmt.Print("What is q?: ")
 		_, err_q := fmt.Scan(&q)
 		fmt.Print("What is the final?: ")
-		fmt.Scan(&fi)
 		_, err_fi := fmt.Scan(&fi)
 		fmt.Print("What is the initial?: ")
 		_, err_ini := fmt.Scan(&ini)
