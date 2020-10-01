@@ -16,7 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="try out ls, not implemented yet" />
+    <list default="true" id="f6934920-7597-4ba9-ae7b-0b4fd1ccab43" name="Default Changelist" comment="try out ls, not implemented yet">
+      <change afterPath="$PROJECT_DIR$/src/heatEqu.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601570429573</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="modify main.sh">
+      <created>1601570554756</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601570554756</updated>
+    </task>
+    <task id="LOCAL-00018" summary="calc command color bug fix">
+      <created>1601570675715</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601570675715</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +291,9 @@
     <MESSAGE value="test pymath" />
     <MESSAGE value="delete pymath" />
     <MESSAGE value="delete gitmodules" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete gitmodules" />
+    <MESSAGE value="modify main.sh" />
+    <MESSAGE value="calc command color bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="calc command color bug fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1824" y="562" width="400" height="255" key="#Vim_Emulation" timestamp="1601477286420">
