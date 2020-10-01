@@ -32,8 +32,15 @@ func main() {
 		} else if strings.Compare("exit", command) == 0 {
 			break
 		} else if strings.Compare("ls", command) == 0 {
-			cmd := exec.Command("./src/commands/bin/ls")
-			//cmd := exec.Command("ls", "-la")
+			//cmd := exec.Command("./src/commands/bin/ls")
+			cmd := exec.Command("ls", "-la")
+			cmd.Stdout = os.Stdout
+			cmd.Stderr = os.Stderr
+			if err := cmd.Run(); err != nil {
+				log.Fatal(err)
+			}
+		} else if strings.Compare("calc", command) == 0 {
+			cmd := exec.Command("./src/commands/bin/calc")
 			cmd.Stdout = os.Stdout
 			cmd.Stderr = os.Stderr
 			if err := cmd.Run(); err != nil {
